@@ -1,6 +1,6 @@
 # Настройки вашего бота
-TELEGRAM_BOT_TOKEN = 8824671886:AAE_Bi01rhkUDDflB0ACSgYiW2GCJ8frsAk
-TELEGRAM_CHAT_ID = 867621074
+TELEGRAM_BOT_TOKEN = "8824671886:AAE_Bi01rhkUDDflB0ACSgYiW2GCJ8frsAk"
+TELEGRAM_CHAT_ID = "867621074"
 
 # Что искать
 # Поисковый запрос со всеми синонимами и похожими ролями
