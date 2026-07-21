@@ -1,12 +1,11 @@
 # ==========================================
 # 1. TELEGRAM (Авторизация и адресат)
 # ==========================================
-TG_BOT_TOKEN = "8824671886:AAE_Bi01rhkUDDf1B0ACSgYiW2GCJ8frsAk"
-TELEGRAM_BOT_TOKEN = "8824671886:AAE_Bi01rhkUDDf1B0ACSgYiW2GCJ8frsAk"
-
-TG_USER_ID = "867621074"
-TELEGRAM_CHAT_ID = "867621074"
-
+import os
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN")
+TELEGRAM_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN")
+TG_USER_ID = os.environ.get("TG_USER_ID")
+TELEGRAM_CHAT_ID = os.environ.get("TG_USER_ID")
 # ==========================================
 # 2. ПАРАМЕТРЫ ПОИСКА (Поисковые запросы)
 # ==========================================
