@@ -2,9 +2,8 @@ name: Daily Vacancy Search
 
 on:
   schedule:
-    # Запуск каждый день в 06:00 по Гринвичу (в 06:00 по Москве)
     - cron: '0 6 * * *'
-  workflow_dispatch: # Позволяет запускать бота вручную кнопкой в любой момент
+  workflow_dispatch:
 
 jobs:
   run-bot:
@@ -21,6 +20,7 @@ jobs:
       - name: Установка зависимостей
         run: |
           pip install -r requirements.txt
+          playwright install chromium
 
       - name: Запуск поиска вакансий
         run: |
